@@ -1,4 +1,4 @@
-# The Console Package [![Build Status](https://ci.joomla.org/api/badges/joomla-framework/console/status.svg?ref=refs/heads/2.0-dev)](https://ci.joomla.org/joomla-framework/console)
+# The Console Package [![Build Status](https://ci.joomla.org/api/badges/joomla-framework/console/status.svg?ref=refs/heads/3.x-dev)](https://ci.joomla.org/joomla-framework/console)
 
 [![Latest Stable Version](https://poser.pugx.org/joomla/console/v/stable)](https://packagist.org/packages/joomla/console)
 [![Total Downloads](https://poser.pugx.org/joomla/console/downloads)](https://packagist.org/packages/joomla/console)
@@ -9,12 +9,12 @@ The Console package provides the infrastructure for building command line applic
 
 ## Installation via Composer
 
-Add `"joomla/console": "~2.0"` to the require block in your composer.json and then run `composer install`.
+Add `"joomla/console": "~3.0"` to the require block in your composer.json and then run `composer install`.
 
 ```json
 {
 	"require": {
-		"joomla/console": "~2.0"
+		"joomla/console": "~3.0"
 	}
 }
 ```
@@ -22,11 +22,11 @@ Add `"joomla/console": "~2.0"` to the require block in your composer.json and th
 Alternatively, you can simply run the following from the command line:
 
 ```sh
-composer require joomla/console "~2.0"
+composer require joomla/console "~3.0"
 ```
 
 If you want to include the test sources and docs, use
 
 ```sh
-composer require --prefer-source joomla/console "~2.0"
+composer require --prefer-source joomla/console "~3.0"
 ```
