@@ -146,8 +146,8 @@ final class ApplicationDescription
     /**
      * Returns the namespace part of the command name.
      *
-     * @param   string   $name   The command name to process
-     * @param   integer  $limit  The maximum number of parts of the namespace
+     * @param   string    $name   The command name to process
+     * @param   ?integer  $limit  The maximum number of parts of the namespace
      *
      * @return  string
      *
