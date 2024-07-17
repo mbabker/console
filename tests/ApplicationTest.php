@@ -657,7 +657,7 @@ class ApplicationTest extends TestCase
         $this->assertSame(BeforeCommandExecuteEvent::RETURN_CODE_DISABLED, $app->getExitCode());
     }
 
-    private function buildMockClosingApplication(InputInterface $input = null, OutputInterface $output = null): Application
+    private function buildMockClosingApplication(?InputInterface $input = null, ?OutputInterface $output = null): Application
     {
         return new class ($input, $output) extends Application {
             private $exitCode  = 0;
